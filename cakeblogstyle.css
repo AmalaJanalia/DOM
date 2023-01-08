@@ -1,0 +1,56 @@
+body {
+  font-family: "Trirong", serif;
+  font-size: 30px;
+}
+.about {
+  font-family: "Caramel", cursive;
+  text-shadow: 5px;
+  color: rgb(179, 137, 151);
+  font-size: 40px;
+}
+.welcome {
+  font-family: "Caramel", cursive;
+  font-size: 50px;
+}
+h2 {
+  font-family: "Caramel", cursive;
+  text-shadow: 5px;
+  color: rgb(205, 90, 126);
+  font-size: 80px;
+}
+ul#topnav {
+  list-style-type: none;
+  margin: 0 0 0 1%;
+  display: table;
+  padding: 0;
+  overflow: hidden;
+  width: 60%;
+  position: absolute;
+}
+
+ul#topnav li {
+  display: table-cell;
+  text-align: center;
+}
+
+ul#topnav li a {
+  background: rgb(205, 90, 126);
+  color: beige;
+  border: none;
+  display: block;
+  margin-right: 5px;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+ul#topnav li a.active,
+ul#topnav li a.active:hover {
+  background: beige;
+  color: #333;
+}
+
+ul#topnav li a:hover {
+  background: rgb(190, 91, 106);
+  color: purple;
+}
